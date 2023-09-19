@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cube Dodger Game</title>
+    
+</head>
+<body>
+    <div id="game-container">
+        <div id="ball"></div>
+    </div>
+    <div id="score-display"><span id="score">0</span></div>
+    <div id="button-container">
+        <button id="menu-button" class="game-button">Menu</button>
+        <button id="pause-button" class="game-button">Pause</button>
+    </div>
+    <div id="overlay">
+        <div id="overlay-text">Paused <br> Click Anywhere to Resume</div>
+    </div>
+    <div class="instruction" id="instruction">
+        <span class="x-swipe-indicator">
+          <p> <b> Swipe </b></p>
+        <i class="x-hand fa fa-hand-pointer-o"></i>
+        </span>
+      
+      </div></div>
+
+    <div id="game-over-overlay">
+        <div id="game-over-text"><h1>Game Over!</h1><h3>Score: <span id="game-over-score">0</h3></span></div>
+        <button id="play-again-button" class="game-button">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
