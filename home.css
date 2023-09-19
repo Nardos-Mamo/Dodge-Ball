@@ -1,0 +1,43 @@
+
+.game-container {
+    
+    background-color: #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.game-over-message {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;   
+    width: 300px;
+    background-color: #3498db;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.game-over-message h1 {
+    font-size: 36px;
+}
+
+.game-over-message p {
+    font-size: 24px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
